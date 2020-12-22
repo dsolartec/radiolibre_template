@@ -83,6 +83,11 @@ body {
     max-width: 50%;
 }
 
+.content > audio {
+    outline: none;
+    margin-top: .5rem;
+}
+
 nav {
     position: fixed;
     bottom: 0;
