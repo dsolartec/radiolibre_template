@@ -71,6 +71,7 @@ body {
     background-image: url('./logo.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    display: block;
     width: calc(1265px / 3);
     height: calc(1280px / 3);
 }
@@ -80,7 +81,9 @@ body {
     margin-top: 1.5rem;
     line-height: 1.2;
     letter-spacing: .02em;
+    margin: none;
     max-width: 50%;
+    padding: 0;
 }
 
 .content > audio {
